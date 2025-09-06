@@ -132,9 +132,9 @@ body {
     z-index: 1;
 }
 
-/* ---Form--
+/*---Form--*/
 .form-container {
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -151,7 +151,7 @@ body {
     padding-bottom: 25px;
     padding-left: 25px;
     display: block;
-} */
+}
 
 
 /*===Destinations====*/
