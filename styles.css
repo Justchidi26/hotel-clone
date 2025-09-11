@@ -133,33 +133,100 @@ body {
 }
 
 /*---Form--*/
-.form-container {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #fafafa;
-    z-index: 2;
-    width: 91%;
-    height: 90px;
-    top: 76%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    display: block;
-}
-
-
-/*===Destinations====*/
 .container-1 {
-  margin: 0 auto;
+  margin: -80px auto 0;
   padding: 0 15px;
   color: #4f4f4f;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  align-items: center;
 }
+.form-container {
+    color: #4f4f4f;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    
+    width: 91%;
+    height: 90px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 3);
+    padding: 40px 55px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.search-icon{
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.search-icon img{
+  height: 15px;
+  width: auto;
+  display: flex;
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  
+}
+.search-icon input{
+  border-radius: 5px;
+  border: 1px solid #4f4f4f;
+  padding: 10px 10px 10px 40px;
+  width: 100%;
+}
+.search-icon input:focus{
+  border-color: #00aeff;
+  outline: none;
+}
+.calender{
+  display: flex;
+  position: relative;
+  width: 60%
+
+}
+.calender img{
+  height: 15px;
+  width: auto;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.calender input{
+  border-radius: 5px;
+  border: 1px solid #4f4f4f;
+  padding: 10px 10px 10px 40px;
+  width: 100%;
+}
+.calender input:focus{
+  border-color: #00aeff;
+  outline: none;
+}
+.form-container button{
+  background-color: #00aeff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  width: 30%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease-in-out;
+}
+.form-container button:hover{
+  background-color: #009be3;
+}
+
+/*===Destinations====*/
+
 .text-1 {
   font-weight: bold;  
   font-size: 24px;
